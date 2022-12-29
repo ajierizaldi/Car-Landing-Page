@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark fixed-top">
+        <nav className="navbar navbar-expand-sm navbar-dark">
             <div className="container">
                 <a className="navbar-brand" href="#main-section">
                     <img src="/images/logo.png" alt="logo" />
@@ -22,7 +22,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="text-body nav-link" href="#faq">FAQ</a>
                         </li>
-                        <button className="btn btn-success ">Register</button>
+                        <button className="btn btn-success"><span>Register</span></button>
                     </ul>
                 </div>
 
